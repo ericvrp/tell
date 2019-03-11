@@ -1,0 +1,20 @@
+{
+	"defaultOutputs": ["stdout", "ID"],
+	"outputs": {
+		"stdout": {
+			"type": "stdout",
+			"name": "stdout"
+		},
+		"ipns-log": {
+			"type": "ipns",
+			"name": "IPNSKEY"
+		},
+		"ID": {
+			"type": "telegram/ipns/text",
+			"name": "NAME",
+			"url": "URL",
+			"token ": "TOKEN",
+			"subscribers": [{"NAME": 12345}]
+		}
+	}
+}
