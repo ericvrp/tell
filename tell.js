@@ -5,18 +5,14 @@ const outputs  = require('./outputs')
 
 
 const usage = () => {
-	console.log(`tell filename
+	console.log(`tell filename [-o outputs]
    
-   Default outputs
-	${settings.defaults}`)
+  Default outputs
+    ${settings.defaultOutputs}
 
-	// <options>
-	//   Possible options
-	//      -o <outputs>
-	//
-	//   Possible outputs
-	//	${Object.keys(settings.outputs)}	
-}
+  Possible outputs
+    ${Object.keys(settings.outputs)}	
+`)}
 
 
 const tell = (filename, selectedOutputs) => {
